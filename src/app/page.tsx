@@ -3,6 +3,8 @@ import Link from "next/link"
 import Cloudflare from "./NET.png"
 import Nextjs from "./next.png"
 
+export const runtime = "edge";
+
 export default function Component() {
   return (
     <div className="flex flex-col bg-background bg-white text-black">
