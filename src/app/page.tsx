@@ -50,7 +50,7 @@ export default function Component() {
                   Next.js on Cloudflare
                 </h1>
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                  This is a sample UI that I'll deploy on Cloudflare Pages. Experience the power of Next.js with global distribution.
+                  This is a sample UI that I will deploy on Cloudflare Pages. Experience the power of Next.js with global distribution.
                 </p>
               </div>
               <div className="space-x-4">
