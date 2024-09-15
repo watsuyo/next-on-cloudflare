@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js on Cloudflare - Demo
 
-## Getting Started
+![Nextjs on Cloudflare Deployed link](image.png)
 
-First, run the development server:
+This project is a simple demonstration of how to deploy a Next.js application to Cloudflare Pages. It covers the basic setup, deployment steps, and configuration for a seamless integration with Cloudflare's powerful CDN and edge network.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Next.js 14** with App Router and API routes support.
+- **Server-side rendering (SSR)** and **Static Generation**.
+- Optimized for **Cloudflare Pages**.
+- Built-in support for **Edge functions**.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠 Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Node.js** installed (v18.x.x or later).
+- A **Cloudflare account** with access to Cloudflare Pages.
+- A **GitHub** repository (or GitLab) to connect with Cloudflare Pages.
 
-## Learn More
+## ⚙️ Installation and Setup
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/Arindam200/next-on-cloudflare.git
+    cd next-on-cloudflare
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Install dependencies**:
+    ```bash
+    npm install
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Run the Next.js app locally**:
+    ```bash
+    npm run dev
+    ```
 
-## Deploy on Vercel
+4. **Build the app** for production:
+    ```bash
+    npm run build
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📄 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is open-source and available under the [MIT License](LICENSE).
