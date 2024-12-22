@@ -3,6 +3,8 @@ import Link from "next/link"
 import Cloudflare from "./NET.png"
 import Nextjs from "./next.png"
 
+export const runtime = "edge";
+
 export default function Component() {
   return (
     <div className="flex flex-col bg-background bg-white text-black">
@@ -52,8 +54,8 @@ export default function Component() {
                 </p>
               </div>
               <div className="space-x-4">
-                <Link 
-                  href="https://dub.sh/arindam-devto" 
+                <Link
+                  href="https://dub.sh/arindam-devto"
                   className="inline-flex items-center justify-center rounded-md bg-black text-white px-4 py-2 text-sm font-medium shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                 >
                   Learn More
